@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This is a full-stack task management application built using **Next.js, TypeScript, Bootstrap, and Firebase Firestore**.
 
-The application allows users to manage tasks efficiently with real-time updates.
+The application allows users to manage tasks efficiently with **real-time updates**.
 
 ---
 
@@ -20,10 +20,10 @@ The application allows users to manage tasks efficiently with real-time updates.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Next.js (App Router), TypeScript
-- **Styling:** Bootstrap + Custom CSS
-- **Backend / Database:** Firebase Firestore
-- **Notifications:** react-hot-toast
+- **Frontend:** Next.js (App Router), TypeScript  
+- **Styling:** Bootstrap + Custom CSS  
+- **Backend / Database:** Firebase Firestore  
+- **Notifications:** react-hot-toast  
 
 ---
 
@@ -31,28 +31,98 @@ The application allows users to manage tasks efficiently with real-time updates.
 
 Use the following credentials:
 
-```txt
-Email: admin@gmail.com
-Password: Admin@123
+Email: admin@gmail.com  
+Password: Admin@123  
 
-src/
-  app/
-    login/page.tsx
-    dashboard/page.tsx
-    page.tsx
-    globals.css
-    layout.tsx
-  lib/
-    firebase.ts
+---
 
-    git clone https://github.com/YOUR_USERNAME/ReactApp3.git
-cd ReactApp3
+## 📂 Project Structure
 
-npm install
+src/  
+&nbsp;&nbsp;app/  
+&nbsp;&nbsp;&nbsp;&nbsp;login/page.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;dashboard/page.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;page.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;globals.css  
+&nbsp;&nbsp;&nbsp;&nbsp;layout.tsx  
 
-npm run dev
+&nbsp;&nbsp;api/  
+&nbsp;&nbsp;&nbsp;&nbsp;tasks.ts  
 
-http://localhost:3000
+&nbsp;&nbsp;hooks/  
+&nbsp;&nbsp;&nbsp;&nbsp;useTasks.ts  
 
-src/lib/firebase.ts
+&nbsp;&nbsp;lib/  
+&nbsp;&nbsp;&nbsp;&nbsp;firebase.ts  
 
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/ReactApp3.git  
+cd ReactApp3  
+
+Install dependencies:
+
+npm install  
+
+Run the project:
+
+npm run dev  
+
+Open in browser:
+
+http://localhost:3000  
+
+---
+
+## 🔥 Firebase Setup
+
+1. Create a Firebase project  
+2. Enable Firestore Database (Test Mode)  
+3. Copy Firebase config  
+4. Add it to:  
+
+src/lib/firebase.ts  
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Login Page
+![Login](public/screenshots/loginPage.png)
+![Login](public/screenshots/invalidlogin.png)
+
+
+### 🔹 Dashboard
+![Dashboard](public/screenshots/admindashboard1.png)
+
+### 🔹 Task List
+![Tasks](public/screenshots/addedtask.png)
+![Tasks](public/screenshots/taskdeleted.png)
+![Tasks](public/screenshots/completedtask.png)
+
+### 🔹 Firebase Data
+![Tasks](public/screenshots/firebasedataadded.png)
+![Tasks](public/screenshots/firebase withallenteries.png)
+
+## 🎯 Assignment Requirements Covered
+
+✔ View tasks from database  
+✔ Add task using form  
+✔ Mark task as complete  
+✔ Delete task  
+
+---
+
+## 👩‍💻 Author
+
+Komal Sharma  
+
+---
+
+## 📌 Notes
+
+This project is developed as part of a full-stack assignment using Next.js and Firebase.
