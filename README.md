@@ -106,7 +106,7 @@ src/lib/firebase.ts
 
 ### 🔹 Firebase Data
 ![Tasks](public/screenshots/firebasedataadded.png)
-![Tasks](public/screenshots/firebasewithallenteries.png)
+![Tasks](public/screenshots/firebasedata2.png)
 
 ## 🎯 Assignment Requirements Covered
 
