@@ -99,14 +99,14 @@ src/lib/firebase.ts
 ### 🔹 Dashboard
 ![Dashboard](public/screenshots/admindashboard1.png)
 
-### 🔹 Task List
+### 🔹 Task List Add/Delete/Completed
 ![Tasks](public/screenshots/addedtask.png)
 ![Tasks](public/screenshots/taskdeleted.png)
 ![Tasks](public/screenshots/completedtask.png)
 
 ### 🔹 Firebase Data
 ![Tasks](public/screenshots/firebasedataadded.png)
-![Tasks](public/screenshots/firebase withallenteries.png)
+![Tasks](public/screenshots/firebasewithallenteries.png)
 
 ## 🎯 Assignment Requirements Covered
 
